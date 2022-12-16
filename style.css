@@ -1,0 +1,276 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+img,
+object,
+embed {max-width: 100%;}
+
+html {overflow-y: scroll;}
+
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+table {border-collapse: separate; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+
+small {font-size: 85%;}
+
+strong {font-weight: bold;}
+
+td, td img {vertical-align: top;}
+
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {cursor: pointer;}
+
+button, input, select, textarea {margin: 0;}
+
+button,
+input[type=button] {width: auto; overflow: visible;}
+
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+.clearfix:after { content: " "; display: block; clear: both; }
+
+@font-face {
+    src: url("./fonts/NunitoSans-Regular.ttf");
+    font-family: "NunitoSans Regular";
+}
+
+@font-face {
+    src: url("./fonts/YesevaOne-Regular.ttf");
+    font-family: "YesevaOne Regular";
+}
+
+body {
+    font-family: 'NunitoSans Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    background: #FFFFFF;
+}
+
+h2,
+h3 {
+    font-family: 'YesevaOne Regular', cursive;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1263px;
+    margin: 0 auto;
+}
+
+.projects {
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: #131313;
+}
+
+.projects-container {
+    padding: 99px 0px 70px 21px;
+}
+
+.projects-menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.projects-menu-item {
+    margin-right: 67px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.projects-menu-item a:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.active-link {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.projects-contant {
+    display: flex;
+    margin-top: 53px;
+}
+
+.project-discription {
+    max-width: 487px;
+}
+
+.project-discription h2 {
+    width: 200px;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    color: #E3B873;
+}
+
+.completed-line {
+    width: 155px;
+    height: 2px;
+    border-radius: 30px;
+    background: #E3B873;
+}
+
+.project-discription h3 {
+    color: #E3B873;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.project-discription p {
+    padding-top: 34px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.project-detailes-item {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-detailes-item div {
+    min-width: 200px;
+    padding-top: 35px;
+}
+
+.project-detailes-item span {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.projects-additional-menu {
+    display: flex;
+    padding-top: 81px;
+}
+
+.button-left,
+.button-right {
+    background: none;
+    box-shadow: none;
+}
+
+.button-left:hover,
+.button-right:hover {
+    filter: brightness(50%);
+}
+
+.additional-menu-list {
+    display: flex;
+    margin: 0px 18px 0 30px;
+}
+
+.additional-menu-item div {
+    height: 12px;
+    width: 12px;
+    margin-right: 18px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.additional-menu-item div:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.active-dot {
+    height: 12px;
+    width: 12px;
+    margin-right: 18px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.project-image-container {
+    padding-left: 50px;
+}
+
+.project-image{
+    max-width: 674px;
+}
+
+.hidden {
+    display: none;
+}
